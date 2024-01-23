@@ -12,6 +12,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+          'hockey-primary': '#FF4240'
+        }
+      }
+    }
+  }
+</script>
 <style>
     .font-manrope{
         font-family: 'Manrope', sans-serif;
@@ -47,7 +59,7 @@
                   </ul>
                 </div>
                 <div class="">
-                  <a class="btn bg-bike-primary text-white">Login</a>
+                  <a class="btn bg-hockey-primary text-white">Login</a>
                 </div>
               </div>
         </nav>
@@ -82,9 +94,10 @@
     <main class="container mx-auto">
         <!--progress section-->
      <section>
+      <hr class="border-dashed">
         <div class="text-center mb-16">
             <h2 class="text-2xl font-extrabold">Professional Hockeys Club</h2>
-            <p class="lg:px-[417px] sm:px-16">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <p class="lg:px-[417px] sm:px-16">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. <hr class="border-dashed"> </p>
         </div>
         <!--prgres card section-->
     <div class="lg:mx-20 grid sm:grid-cols-1 lg:grid-cols-4 ">
@@ -115,40 +128,46 @@
               <h2 class="font-extrabold">Training Ground</h2>
               <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
             </div>
+            <hr>
           </div>
     </div>
     </section>
      <!--programe section-->
     <section >
+      <hr class="border-dashed">
+      <div class="text-center mb-16">
+        <h2 class="text-2xl font-extrabold">Program Sections</h2>
+        <p class="lg:px-[417px] sm:px-16">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. <hr class="border-dashed"> </p>
+    </div>
     <!--programe section-->
     <div class="grid gap-5 lg:grid-cols-2">
-    <div class="hero lg:w-[620px] mb-4" style="background-image: url(./Images/2.png);">
+    <div class="hero rounded-3xl lg:w-[620px] mb-4" style="background-image: url(./Images/2.png);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content  text-white">
           <div class="">
             <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
             <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.</p>
-            <button class="btn btn-primary">Get Started</button>
+            <button class="btn bg-hockey-primary text-white border-[#FF4240]">Register Now!</button>
           </div>
         </div>
       </div>
-      <div class="hero lg:w-[570px] mb-4 lg:mr-[400px]" style="background-image: url(./Images/3.png);">
+      <div class="hero rounded-3xl lg:w-[570px] mb-4 lg:mr-[400px]" style="background-image: url(./Images/3.png);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content  text-white">
           <div class="max-w-md">
             <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
             <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. </p>
-            <button class="btn btn-primary">Get Started</button>
+            <button class="btn bg-hockey-primary text-white border-[#FF4240]">Register Now!</button>
           </div>
         </div>
       </div>
-      <div id="row-span" class="hero lg:w-[1350px] lg:h-[384px] " style="background-image: url(./Images/4.png);">
+      <div id="row-span" class="hero rounded-3xl lg:w-[1350px] lg:h-[384px] " style="background-image: url(./Images/4.png);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content  text-white">
           <div class="">
             <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
             <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. </p>
-            <button class="btn btn-primary">Register Now!</button>
+            <button class="btn bg-hockey-primary text-white border-[#FF4240]">Register Now!</button>
           </div>
         </div>
       </div>
